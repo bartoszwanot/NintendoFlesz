@@ -74,10 +74,18 @@ html {
   }
 }
 
-.copyright-wrap {
+.info-wrap {
   color: #666;
   line-height: 1.5;
   font-size: 14px;
+  display: none;
+  padding: 8px;
+}
+
+.copyright-wrap {
+  color: #666;
+  line-height: 1.5;
+  font-size: 12px;
   display: none;
   padding: 8px;
 }
