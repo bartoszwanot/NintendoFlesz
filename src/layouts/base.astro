@@ -102,7 +102,7 @@ const navs = (getEnv(import.meta.env, Astro, 'NAVS') || '')
             <div class="nav">
               <div class="nav-item">
                 <a href={SITE_URL} title={channel?.title} class={`nav-link ${pathname === '/' ? 'current' : ''}`}>
-                  Home
+                  Strona główna
                 </a>
               </div>
               {
@@ -113,7 +113,7 @@ const navs = (getEnv(import.meta.env, Astro, 'NAVS') || '')
                       title="Tags"
                       class={`nav-link ${pathname === '/tags' ? 'current' : ''}`}
                     >
-                      Tags
+                      Tagi
                     </a>
                   </div>
                 ) : null
@@ -126,7 +126,7 @@ const navs = (getEnv(import.meta.env, Astro, 'NAVS') || '')
                       title="Links"
                       class={`nav-link ${pathname === '/links' ? 'current' : ''}`}
                     >
-                      Links
+                      Linki
                     </a>
                   </div>
                 ) : null
@@ -148,7 +148,7 @@ const navs = (getEnv(import.meta.env, Astro, 'NAVS') || '')
             </form> -->
             <div class="copyright-wrap">
               Podoba Ci się to co robię? <a href="https://buycoffee.to/pannindyk" title="Postaw mi kawę">Postaw mi kawę!</a>
-              <br>
+              <br><br>
               Powered by
               <a
                 href="https://github.com/ccbikai/BroadcastChannel"
