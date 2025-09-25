@@ -74,12 +74,8 @@ html {
   }
 }
 
-.info-wrap {
-  color: #666;
-  line-height: 1.5;
+.info {
   font-size: 14px;
-  display: none;
-  padding: 8px;
 }
 
 .copyright-wrap {
