@@ -365,7 +365,7 @@ audio::-webkit-media-controls-panel {
 }
 
 #aside-container .nav {
-  padding-top: 20px;
+  padding-top: 40px;
   position: sticky;
   top: 0;
 }
